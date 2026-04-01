@@ -21,7 +21,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "drone_logger_node = drone_logger.drone_logger_node:main",
+            "drone_logger_node = drone_logger.logger:main",
         ],
     },
     url="https://github.com/Vertical-Flight-Systems-Purdue/drone-logger"
